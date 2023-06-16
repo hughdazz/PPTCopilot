@@ -1,0 +1,9 @@
+[submodule "PPTCopilot-backend"]
+	path = PPTCopilot-backend
+	url = git@github.com:hughdazz/PPTCopilotBackend.git
+[submodule "PPTCopilot-project"]
+	path = PPTCopilot-project
+	url = git@github.com:hughdazz/PPTCopilotProject.git
+[submodule "PPTCopilot-editor"]
+	path = PPTCopilot-editor
+	url = git@github.com:hughdazz/PPTCopilotEditor.git

@@ -1,0 +1,61 @@
+version: '3'
+services:
+  mysqldb:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: admin
+      MYSQL_DATABASE: now_db
+    container_name: some-mysql
+    ports:
+      - 3307:3306
+    networks:
+      - default
+
+  pptcopilot-editor:
+    build:
+      context: ./PPTCopilot-editor
+      dockerfile: Dockerfile
+      args:
+        SERVER_IP: "localhost"
+    ports:
+      - 7777:7777
+    container_name: ppt-copilot
+    networks:
+      - default
+
+  pptcopilot-backend:
+    build:
+      context: ./PPTCopilot-backend
+      dockerfile: Dockerfile
+      args:
+        MYSQL_HOST: mysqldb
+        MYSQL_PORT: 3306
+        SERVER_IP: "localhost"
+    restart: always
+    ports:
+      - 8080:8080
+    depends_on:
+      - mysqldb
+    container_name: ppt-backend
+    networks:
+      - default
+    # 加上host.docker.internal
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    
+  pptcopilot-project:
+    build:
+      context: ./PPTCopilot-project
+      dockerfile: Dockerfile
+      args:
+        SERVER_IP: "localhost"
+    ports:
+      - 9529:9529
+    container_name: ppt-project
+    networks:
+      - default
+
+networks:
+  default:
+    driver: bridge
