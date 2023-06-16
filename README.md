@@ -6,11 +6,11 @@
 
 以下是项⽬的部分演⽰截图：
 
-![""](.\.image\start.png)
+![""](https://raw.githubusercontent.com/hughdazz/PPTCopilot/master/.image/start.png)
 
-![""](.\.image\ground.png)
+![""](https://raw.githubusercontent.com/hughdazz/PPTCopilot/master/.image/ground.png)
 
-![""](.\.image\yanshi.png)
+![""](https://raw.githubusercontent.com/hughdazz/PPTCopilot/master/.image/yanshi.png)
 
 ## 使⽤说明
 
@@ -52,25 +52,25 @@
 
 对话框中输⼊幻灯⽚标题并确认：
 
-![""](.\.image\confirm.png)
+![""](https://raw.githubusercontent.com/hughdazz/PPTCopilot/master/.image/confirm.png)
 
 在接下来的⻚⾯中输⼊主题与汇报⼈姓名，选择模板，点击创建ppt:
 
-![""](.\.image\template.png)
+![""](https://raw.githubusercontent.com/hughdazz/PPTCopilot/master/.image/template.png)
 
 等待⼀段时间后会显⽰⼤纲，点击右边的“Append”和“Edit”可对⼤纲进⾏编辑：
 
-![""](.\.image\outline.png)
+![""](https://raw.githubusercontent.com/hughdazz/PPTCopilot/master/.image/outline.png)
 
 点击“创建ppt”按钮并等待⼀段时间（时间较⻓，若中间出现蓝⾊模板，请不要操作继续等待），显⽰PPT编辑⻚⾯：
 
-![""](.\.image\ppt.png)
+![""](https://raw.githubusercontent.com/hughdazz/PPTCopilot/master/.image/ppt.png)
 
 使⽤⿏标键盘和右边功能栏可对PPT进⾏编辑，具体使⽤⽅法⻅附录
 
 退出该界⾯后，项⽬详情⻚会出现对应的.json⽂件：
 
-![""](.\.image\file.png)
+![""](https://raw.githubusercontent.com/hughdazz/PPTCopilot/master/.image/file.png)
 
 按照对⽂件的处理⽅法可对该⽂件进⾏重命名、下载和删除操作
 
@@ -78,9 +78,9 @@
 
 完成后点击右上⻆“导出”按钮，选择“保存到云端”即可完成修改
 
-![""](.\.image\store.png)
+![""](https://raw.githubusercontent.com/hughdazz/PPTCopilot/master/.image/store.png)
 
-![""](.\.image\export.png)
+![""](https://raw.githubusercontent.com/hughdazz/PPTCopilot/master/.image/export.png)
 
 ### 注册**，**登录**,**注销**,**个⼈信息维护功能**：**
 
